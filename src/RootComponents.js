@@ -21,8 +21,4 @@ export const Html = ({ children, ...rest }) => (
   </html>
 )
 export const Head = ({ children, ...rest }) => <head {...rest}>{children}</head>
-export const Body = ({ children, ...rest }) => (
-  <body {...rest}>
-    {children}
-  </body>
-)
+export const Body = ({ children, ...rest }) => <body {...rest}>{children}</body>

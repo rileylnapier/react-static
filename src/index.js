@@ -39,7 +39,7 @@ if (typeof document !== 'undefined') {
   routesPromise = (async () => {
     let res
     if (process.env.NODE_ENV === 'development') {
-      res = await axios.get(`${process.env.STATIC_ENDPOINT}/getroutes`)
+      res = await axios.get('/__config__/getroutes')
       return res.data
     }
     return window.__routesList
