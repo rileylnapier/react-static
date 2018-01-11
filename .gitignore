@@ -6,7 +6,6 @@ coverage
 
 # production
 dist
-lib
 
 *.log
 .DS_Store
